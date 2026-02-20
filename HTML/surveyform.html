@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Description</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Enter your full name:</label>
+        <input id="name" name="name" type="text" placeholder="Your Name" required></input>
+        <label for="email" id="email-label">Enter your email address</label>
+        <input id="email" type="email" name="email" required placeholder="youremail@email.com"></input>
+        <label for="number" id="number-label">Enter your age:</label>
+        <input id="number" type="number" min="10" max="99" placeholder="Age"></input>
+        <label for="dropdown">Select a dropdown:</label>
+        <select id="dropdown" name="dropdown">
+            <option>Option 1</option>
+            <option>Option 2</option>
+        </select>
+        <label for="radio-1">Select one radio</label>
+        <input type="radio" name="radio-group" value="radio-1">Radio 1</input>
+        <input type="radio" name="radio-group" value="radio-2">Radio 2</input>
+        <label for="fields">Select one or more fields</label>
+        <input type="checkbox" name="fields" value="check-1">Check 1</input>
+        <input type="checkbox" name="fields" value="check-2">Check 2</input>
+        <input type="checkbox" name="fields" value="check-3">Check 3</input>
+        <input type="checkbox" name="fields" value="check-4">Check 4</input>
+        <input type="checkbox" name="fields" value="check-5">Check 5</input>
+        <label for="comments">Place your comments below:</label>
+        <textarea name="comments"></textarea>
+        <button id="submit">Submit</button>
+    </form>
+</body>
+
+</html>
