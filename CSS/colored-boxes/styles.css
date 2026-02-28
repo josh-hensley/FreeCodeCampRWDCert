@@ -1,0 +1,28 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.color-box {
+    width: 60px;
+    height: 60px;
+}
+
+.color1 {
+    background-color: #0404f4;
+}
+
+.color2 {
+    background-color: rgb(255, 0, 127);
+}
+
+.color3 {
+    background-color: cadetblue;
+}
+
+.color4 {
+    background-color: hsl(270, 50%, 50%);
+}
+
+.color5 {
+    background-color: blanchedalmond;
+}
